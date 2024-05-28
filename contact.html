@@ -1,0 +1,44 @@
+---
+layout: default-pagina
+title-head: Gustavo - Contact
+title: Contact information
+---
+
+<header>
+  <h1>{{ page.title }}</h1>
+</header>
+
+<main>
+  <dl itemscope itemtype="http://schema.org/Person">
+    <dt>Name</dt>
+    <dd itemprop="name">Gustavo Barbagallo de Oliveira</dd>
+
+    <dt>E-mail</dt>
+    <dd itemprop="email"><a href="mailto:goliveira5@ufmg.br">goliveira5@ufmg.br</a></dd>
+
+    <dt>Telephone</dt>
+    <dd itemprop="telephone">+55 31 3409-1435</dd>
+
+    <dt>Affiliation</dt>
+    <dd itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+      <span itemprop="name">Universidade Federal de Minas Gerais</span><br>
+      Instituto de Ciências Exatas<br>
+      Departamento de Matemática
+    </dd>
+
+    <dt>Address</dt>
+    <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <address>
+        <abbr title="Universidade Federal de Minas Gerais">UFMG</abbr> – <abbr title="Instituto de Ciências Exatas">ICEx</abbr> – <abbr title="Departamento de Matemática">DM</abbr><br>
+        <span itemprop="streetAddress">Av. Antônio Carlos, 6627</span><br>
+        <span itemprop="postalCode">31270-901</span> <span itemprop="addressLocality">Belo Horizonte</span> – <abbr itemprop="addressRegion" title="Minas Gerais">MG</abbr><br>
+        <span itemprop="addressCountry">Brasil</span>
+      </address>
+    </dd>
+
+    <dt>Office</dt>
+    <dd>4029 [<a href="http://www.openstreetmap.org/?mlat=-19.86897&mlon=-43.96489#map=17/-19.86897/-43.96489">map<sup><i class="fa fa-external-link"></i></sup></a>]</dd>
+  </dl>
+</main>
+
+{% include nav-pagina.html %}
