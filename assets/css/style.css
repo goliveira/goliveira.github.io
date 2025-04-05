@@ -1,0 +1,63 @@
+/* Global */
+
+.fa-external-link {
+  font-size: 9px;
+  margin-left: 2px;
+}
+
+body {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  /* max-width: 52em; */
+}
+
+footer {
+  margin-top: 2em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+p.more {
+}
+
+ol.bib {
+  list-style-type: upper-roman;
+}
+
+.recomendada {
+  color: darkgreen;
+}
+
+.complementar {
+  color: gray;
+}
+
+.youtube {
+  color: brown;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+/* Home page */
+
+#box {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#html5logo {
+  width: 165px;
+  height: 64px;
+}
